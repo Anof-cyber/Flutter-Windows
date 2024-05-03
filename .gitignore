@@ -1,11 +1,11 @@
+**/build/flutter_assets/*
+**/build/native_assets/*
+**/build/web/*
 
-win_ssl_httpclient_no_proxy/build/**
-!win_ssl_httpclient_no_proxy/build/windows/x64/runner/Release/
-
-win_ssl_httpclient_no_config/build/**
-!win_ssl_httpclient_no_config/build/windows/x64/runner/Release/
-
-
+**/build/windows/x64/CMakeFiles
+**/build/windows/x64/flutter
+**/build/windows/x64/x64/
+!**/build/windows/x64/runner/Release
 # Miscellaneous
 *.class
 *.log
@@ -45,3 +45,12 @@ migrate_working_dir/
 /android/app/profile
 /android/app/release
 .vscode
+**/build/.last_build_id
+**/build/windows/app.so
+**/build/windows/x64/runner/CMakeFiles
+**/build/windows/x64/runner/Debug
+**/build/windows/x64/runner/*.dir
+*.vcxproj
+*.sln
+*.filters
+*.cmake
