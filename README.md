@@ -5,7 +5,7 @@
 - https://medium.com/@Ano_F_/flutter-windows-thick-client-ssl-pinning-3c1134e9b827
 ### Frida
 
-- Script - /blob/main/Frida/Flutter-winows-SSL-Disable.js
+- https://github.com/Anof-cyber/Flutter-Windows/blob/main/Frida/Flutter-winows-SSL-Disable.js
 
 ```bash
 frida -l Flutter-winows-SSL-Disable.js app-name.exe
